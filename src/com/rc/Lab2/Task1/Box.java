@@ -20,4 +20,13 @@ public class Box {
         this.width = param;
         this.depth = param;
     }
+
+    double surfaceArea () {
+        return 2*(width * depth + width * height + height*depth);
+    }
+
+    double boxVolume () {
+        return height * width * depth;
+    }
+
 }

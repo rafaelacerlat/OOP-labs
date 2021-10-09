@@ -8,17 +8,8 @@ public class Task1 {
         Box object2 = new Box(200);
         Box object3 = new Box(350.55,145.87,200.5);
 
-        System.out.println("The surface area of the box is: " + surfaceArea(object3) + ".");
-        System.out.println("The volume of the box is: " + boxVolume(object3) + ".");
+        System.out.println("The surface area of the box is: " + object3.surfaceArea() + ".");
+        System.out.println("The volume of the box is: " + object3.boxVolume() + ".");
     }
-
-    static double surfaceArea ( Box object ) {
-        return object.width * object.depth;
-    }
-
-    static double boxVolume ( Box object ) {
-        return object.height * object.width * object.depth;
-    }
-
 
 }
