@@ -18,7 +18,7 @@ public class Lab4 {
 
     }
 
-    public static void printResults(Scanner input) {
+    public static void printResults(Scanner input){
         while (input.hasNextLine()) {
             String expression = input.nextLine();
             System.out.print(expression);
